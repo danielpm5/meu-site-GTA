@@ -1,0 +1,74 @@
+ *{ 
+   font-family: "Bangers",system-ui; ;
+   margin: 0;
+   box-sizing: border-box;}
+
+html{
+height: 100%;}
+
+body{background-size: cover;
+background-image: url("img/background2.jpg");
+  background-position: center;}
+
+.nome{ color: rgb(56, 120, 208);
+font-size: 360px;
+ position:absolute; 
+bottom: 380px;
+text-align: center;
+right: 0px;
+left: 0px;
+width: 100%;}
+
+.personagem{
+ position: absolute; 
+ bottom: 0;
+ left: 0;
+ right: 0;
+ height: 600px;
+ margin:auto ;}
+
+ .paragrafos{
+  position: absolute;
+  bottom: 40px;
+left: 40;} 
+
+.selecione{
+  color: #ffd319;
+font-size: 26px;}
+
+h1{font-size: 72;
+color: white;}
+
+.escolha{font-size: 21px;
+color: #ffff;}
+
+.botoes{
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:  100%;
+  gap: 20px;}
+
+  .bot{
+   width: 60px; 
+   height: 60px;
+   border-radius: 50%;
+   object-fit: cover;
+   object-position: top;
+   border: 2px solid #ffff ;}
+
+   .you{background-color: #ffd319;
+       padding: 20px;
+       border-radius: 50%;}
+
+       #previaFoto{
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 600px;
+        max-width: 90vw;
+        object-fit: contain;
+        z-index: 9999;}
